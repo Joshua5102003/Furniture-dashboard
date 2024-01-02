@@ -1,0 +1,43 @@
+.favorites {
+  display: flex;
+  flex-direction: column;
+}
+
+#fav-txt {
+  text-align: center;
+  margin: 0%;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.fav-box {
+  background-color: #00308f;
+  color: white;
+  height: 39vh;
+  border-radius: 20px;
+}
+
+.scrollableFav {
+  overflow-y: scroll;
+}
+
+.scrollableFav::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Optional: Customize the scrollbar thumb */
+.scrollableFav::-webkit-scrollbar-thumb {
+  background: #f0f0f0;
+  border-radius: 20px;
+}
+
+/* Optional: Customize the scrollbar track */
+.scrollableFav::-webkit-scrollbar-track {
+  background: rgb(78, 124, 183);
+  border-radius: 20px;
+}
+
+.FavEmpty-list {
+  height: 10px; /* Set a height for visibility */
+  background-color: #00308f; /* Add a background color for visibility */
+}

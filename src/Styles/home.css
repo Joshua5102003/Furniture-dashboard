@@ -1,0 +1,23 @@
+.home {
+  margin: 20px;
+  background-color: #5072a7;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.homeHeadings {
+  color: white;
+  margin: 2px 2px 0px 2px;
+  margin-top: 4px;
+  padding-top: 8px;
+}
+
+.homeHeadings > hr {
+  margin: 0px;
+}

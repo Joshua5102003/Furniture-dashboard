@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  margin-top: 10px;
+}
+
+.flexHeader {
+  display: flex;
+  align-items: center;
+}
+
+.searches {
+  justify-content: space-around;
+  width: 100%;
+}
+
+.flex-u {
+  height: 50px;
+  width: 50px;
+  color: white;
+}
+
+.flex-i {
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+
+.flexC {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}

@@ -1,0 +1,24 @@
+.settingsFlex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.settingItem {
+  display: flex;
+  align-items: center;
+}
+
+.settingsIcon {
+  margin-right: 10px;
+}
+
+.logoutIcon {
+  margin-right: 10px;
+}
+h3 {
+  margin: 5px;
+}
